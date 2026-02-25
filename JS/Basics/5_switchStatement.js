@@ -29,7 +29,7 @@ const prompt = require('prompt-sync')();
 //             console.log("Sunday is the Funday");
 // }
 
-//code 2:
+//code 2:areaOfShape based on user input using switch case statement 
 const shape = prompt('Enter the shape: ');
 const r = 7;
 const l = 2;
@@ -45,10 +45,10 @@ switch(shape){
     case "square":
         area = s * s;
         console.log("Area of square :",area);
-        break;
+        break;  
     case "rectangle":
         area = l * b;
-        console.log("Area of ectangle :",area);
+        console.log("Area of rectangle :",area);
         break;
         default:
             console.log("Invalid Shape");
