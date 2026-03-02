@@ -29,7 +29,8 @@ const prompt = require('prompt-sync')();
 //             console.log("Sunday is the Funday");
 // }
 
-//code 2:areaOfShape based on user input using switch case statement 
+//code 2:areaOfShape based on user input using switch case statement
+//shapes such as circle, square and rectangle 
 const shape = prompt('Enter the shape: ');
 const r = 7;
 const l = 2;
