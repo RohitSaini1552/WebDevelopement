@@ -26,7 +26,7 @@ const prompt = require('prompt-sync')();
 
 let userInput = parseInt(prompt('Enter the Input: '));
 
-while(userInput < 0){
+while(isNaN(userInput) || userInput < 0){
     userInput = parseFloat(prompt('Enter the Input again: '));
 }
 
