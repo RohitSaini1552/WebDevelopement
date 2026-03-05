@@ -24,14 +24,37 @@ const prompt = require('prompt-sync')();
 
 //Q3 - check whether user gives correct input(+ve number)
 
-let userInput = parseInt(prompt('Enter the Input: '));
+// let userInput = parseInt(prompt('Enter the Input: '));
 
-while(isNaN(userInput) || userInput < 0){
-    userInput = parseFloat(prompt('Enter the Input again: '));
+// while(isNaN(userInput) || userInput < 0){
+//     userInput = parseFloat(prompt('Enter the Input again: '));
+// }
+
+// console.log("Congratulations you made a Correct number input",userInput);
+
+
+//Q4 - write a code to calculate and print sum of first 10 natural numbers
+
+// var sum = 0;
+// var i = 1;
+// const n = parseInt(prompt('Enter the number of first n natural numbers: '));
+// while(i <= n){
+//     sum += i;
+//     i++;
+// }
+// console.log("The sum of first ",n," natural numbers is : "+ sum);
+
+
+//Q5 - write a code to check whether an input number is prime or not
+
+const num = parseInt(prompt("Enter the number : "));
+var i = 2;
+var isPrime = true;
+while(i <= num/2){
+    if(num % i == 0) isPrime = false;
+    i++;
 }
-
-console.log("Congratulations you made a Correct number input");
-
+console.log("The Entered number is prime : ",isPrime);
 
 
 
