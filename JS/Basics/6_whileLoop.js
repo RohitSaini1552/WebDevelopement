@@ -27,7 +27,7 @@ const prompt = require('prompt-sync')();
 let userInput = parseInt(prompt('Enter the Input: '));
 
 while(userInput < 0){
-    userInput = parseInt(prompt('Enter the Input again: '));
+    userInput = parseFloat(prompt('Enter the Input again: '));
 }
 
 console.log("Congratulations you made a Correct number input");
