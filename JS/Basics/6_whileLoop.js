@@ -51,7 +51,10 @@ const num = parseInt(prompt("Enter the number : "));
 var i = 2;
 var isPrime = true;
 while(i <= num/2){
-    if(num % i == 0) isPrime = false;
+    if(num % i == 0){
+        isPrime = false;
+        break;
+    } 
     i++;
 }
 console.log("The Entered number is prime : ",isPrime);
