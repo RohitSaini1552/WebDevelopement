@@ -6,4 +6,5 @@ var num2 = parseInt(prompt("Enter 2nd number : "));
 function sum(a, b){
     return a+b;
 }
+console.log("sum of ", num1 ,"and",num2,"is : ", sum(num1, num2));
 console.log(`sum of ${num1} and ${num2} is `,sum(num1, num2) );  
