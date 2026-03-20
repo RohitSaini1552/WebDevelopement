@@ -1,3 +1,5 @@
+// write a JS program to implement calculator using arrow functions
+
 const calculator = (a, b, op) => {
     if(op === '+') return a + b;
     else if(op === '-') return a - b;
